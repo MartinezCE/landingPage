@@ -1,0 +1,109 @@
+.grid-container {
+  display: grid;
+  width: 100%;
+  overflow: hidden;
+  grid-template-rows: 420px 420px 420px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0px;
+  grid-template-areas:
+    "header header header header"
+    "sidebar test main main"
+    "footer footer main main";
+}
+.grid-container-text {
+  display: none;
+}
+.grid-container :hover .grid-container-text {
+  display: block;
+  z-index: 2;
+}
+.capa-superior-grid {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.item1 {
+  grid-area: header;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../public//img/fuerza2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item2 {
+  grid-area: sidebar;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../public//img/grupal.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item3 {
+  grid-area: main;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../public//img/sobremi.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item4 {
+  grid-area: footer;
+  height: 100%;
+  width: 100%;
+  background-image: url("../../../public//img/fuerza.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item5 {
+  grid-area: test;
+  height: 100%;
+  width: 100%;
+  background-image: url("../../../public//img/bodyg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 425px) {
+  .grid-container {
+    grid-template-rows: 420px 420px 420px 620px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "header header"
+      "sidebar test"
+      "footer footer"
+      "main main";
+  }
+  .capa-superior-grid {
+    /*  display: none !important; */
+  }
+}

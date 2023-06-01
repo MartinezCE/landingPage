@@ -1,0 +1,26 @@
+.conteiner {
+  margin-top: 80px;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../../public//img/banner.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba (0, 0, 0.5);
+}
+.capa-superior {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+
+.banner_text {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  padding: 10px;
+  color: white;
+  font-size: 42px;
+  font-weight: bold;
+}

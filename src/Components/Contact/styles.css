@@ -1,0 +1,63 @@
+.card-contact {
+  width: 80%;
+  background: rgba(153, 160, 180, 0.34);
+  border-radius: 0px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(116, 120, 130, 0.65);
+}
+
+input {
+  color: rgb(255, 255, 255);
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0.6em 0.3em;
+  font-size: 1rem;
+  border-bottom: 1px solid #c6bcbc77;
+
+}
+
+select {
+  color: rgb(255, 255, 255);
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0.6em 0.3em;
+  font-size: 1rem;
+  border-bottom: 1px solid #c6bcbc77;
+  width: 100%;
+}
+
+textarea {
+  border-bottom: 1px solid #c6bcbc77;
+  resize: none;
+  background: none;
+  margin-top: 18px;
+ /*  padding: 0.6em; */
+  width: 100%;
+}
+
+button {
+  border: 1px solid #c6bcbc77;
+  color: white;
+  width: 120px;
+  height: 48px;
+ 
+}
+
+  @media (max-width: 425px) {
+
+    .card-contact{
+     display: flex;
+     flex-direction: column-reverse;
+    }
+    .card-contact form {
+     width: 100%;
+    }
+    .card-contact .text{
+     width: 100%;
+    }
+   }
+   

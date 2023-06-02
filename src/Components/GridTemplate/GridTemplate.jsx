@@ -11,7 +11,7 @@ const GridTemplate = () => {
         <div className="capa-superior-grid" />
         <h2>Perzonalizado</h2>
         <div className="grid-container-text">
-          <p className="text-center p-2">
+          <p className="text-center p-2 sm:text-lg">
             Un programa diseñado específicamente para vos, teniendo en cuenta tus
             metas, nivel de condición física actual y cualquier restricción o
             lesión.<br></br> Asesoramiento individualizado de nuestros entrenadores
@@ -27,7 +27,7 @@ const GridTemplate = () => {
         <div className="capa-superior-grid" />
         <h2>Grupal</h2>
         <div className="grid-container-text ">
-          <p className="text-center p-2 text-lg">
+          <p className="text-center p-2 sm:text-lg">
             Motivación y apoyo de un grupo de personas con objetivos similares.<br></br> 
             Dinámicas de grupo que te mantendrán motivado/a y comprometido/a con
             tu entrenamiento.<br></br>  Precios más accesibles en comparación con el
@@ -45,7 +45,7 @@ const GridTemplate = () => {
         <div className="capa-superior-grid" />
         <h2>Sobre mi</h2>
         <div className="grid-container-text ">
-          <p className="text-center p-2 text-lg">
+          <p className="text-center p-2 sm:text-lg">
             En entrenamientos Nano, nos apasiona ayudar a las personas a lograr
             sus objetivos de fitness y mejorar su calidad de vida. Nuestro
             enfoque se centra en brindar entrenamiento personalizado y grupal
@@ -54,7 +54,7 @@ const GridTemplate = () => {
             fuerza.
           </p>
           <h2>¿Por que elegirnos?</h2>
-          <p className="text-center p-2 text-lg">
+          <p className="text-center p-2 sm:text-lg">
             Equipo de entrenadores altamente calificados y certificados, con
             amplia experiencia en entrenamiento personalizado y grupal. Entorno
             amigable y motivador que te ayudará a mantener el compromiso y la
@@ -72,7 +72,7 @@ const GridTemplate = () => {
         <div className="capa-superior-grid" />
         <h2>Strength training</h2>
         <div className="grid-container-text">
-          <p className="text-center p-2 text-lg">
+          <p className="text-center p-2 sm:text-lg">
             Enfocado en aumentar tu fuerza y potencia muscular. <br></br>  Utiliza técnicas
             de levantamiento de pesas y ejercicios compuestos.<br></br>  Desarrolla
             músculos fuertes y tonificados. <br></br> Mejora tu rendimiento en otras
@@ -85,7 +85,7 @@ const GridTemplate = () => {
         <div className="capa-superior-grid" />
         <h2>Full body</h2>
         <div className="grid-container-text">
-          <p className="text-center p-2 text-lg">
+          <p className="text-center p-2 sm:text-lg">
             Trabaja todos los grupos musculares en una sola sesión de
             entrenamiento. <br></br> Maximiza la eficiencia y optimiza tu tiempo en el
             gimnasio. Desarrolla una base sólida de fuerza y resistencia en todo

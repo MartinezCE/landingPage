@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className=" p-4 ml-5 mr-5 mt-5 flex flex-row flex-wrap items-start content-center justify-around sm:flex sm:flex-row-reverse sm:items-center">
       <section>
-        <ul className="flex flex-col gap-5 justify-center ">
+        <ul className="flex flex-col gap-5  justify-center" >
           <li className="flex flex-row items-center gap-5">
             <a href="#entrenamientos">Entrenamientos</a>
           </li>

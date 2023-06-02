@@ -7,6 +7,8 @@ import "aos/dist/aos.css";
 import GridTemplate from "./Components/GridTemplate/GridTemplate.jsx";
 import Contact from "./Components/Contact/Contact.jsx";
 import ImageLoader from "./Components/ImageLoader/ImagenLoader.jsx";
+import Whatsapp from './Components/Whatsapp/Whatsapp.jsx';
+
 
 function App() {
   
@@ -15,6 +17,7 @@ function App() {
     <ImageLoader>
       <Header />
       <Main>
+        <Whatsapp/>
         <GridTemplate />
         <Contact />
       </Main>

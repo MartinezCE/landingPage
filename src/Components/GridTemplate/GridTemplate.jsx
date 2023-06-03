@@ -91,7 +91,7 @@ const GridTemplate = () => {
       <div className="item5 grayscale hover:grayscale-0 " data-aos="flip-up">
         <div className="capa-superior-grid" />
         <h2>Full body</h2>
-        <div className="grid-container-text">
+        <div className="grid-container-text fullbody sm:overflow-hidden overflow-scroll text-ellipsis">
           <p className="text-center p-2 sm:text-lg">
             Entrenamientos que involucran el cuerpo en su totalidad, activando
             una gran cantidad de músculos en simultáneo; a diferencia de un

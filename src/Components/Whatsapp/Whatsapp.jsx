@@ -5,7 +5,10 @@ import {BsWhatsapp} from "react-icons/bs";
 const Wahtsapp =()=>{
     return(<>
     <button className="whatsapp-container">
-        <BsWhatsapp style={{width:"100%", height:"100%"}}/>
+        <a target="blank_" href="https://walink.co/303348">
+             <BsWhatsapp style={{width:"100%", height:"100%"}}/>
+        </a>
+       
     </button>
     </>)
 }

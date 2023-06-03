@@ -40,13 +40,13 @@ const Footer = () => {
               Ubicacion
             </li>{" "}
           </a>
-          <a href="" target="_blank">
+          <a href="https://instagram.com/entrenamientosnano?igshid=MzRlODBiNWFlZA==" target="_blank">
             <li className="flex flex-row items-center gap-5">
               <FaInstagram />
               Instagram
             </li>{" "}
           </a>{" "}
-          <a href="" target="_blank">
+          <a href="https://walink.co/303348" target="_blank">
             <li className="flex flex-row items-center gap-5">
               <FaWhatsapp />
               Whatssap

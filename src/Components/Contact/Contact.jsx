@@ -96,12 +96,12 @@ const Contact = () => {
           <h2>contacto </h2>
           <p className="text-lg mt-6">
             Podes contactarme fácilmente a través de
-            <a className="hover:text-teal-500" href="https://www.instagram.com/" target="blank_">
+            <a className="hover:text-teal-500" href="https://instagram.com/entrenamientosnano?igshid=MzRlODBiNWFlZA==" target="blank_">
               {" "}
               Instagram (@entrenamientosNano)
             </a>{" "}
             o{" "}
-            <a className="hover:text-teal-500" href="https://www.instagram.com/" target="blank_">
+            <a className="hover:text-teal-500" href="https://walink.co/303348" target="blank_">
               {" "}
               WhatsApp
             </a>{" "}

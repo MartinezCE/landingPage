@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles.css";
 
 const GridTemplate = () => {
+  const [open, setOpen] = useState(false);
+  const [key, setKey] = useState("");
+  const handleClick = (key) => {
+    setKey(key);
+    setOpen(!open);
+  };
+
   return (
     <div id="entrenamientos" className="grid-container">
       <div
@@ -23,7 +30,11 @@ const GridTemplate = () => {
         </div>
       </div>
 
-      <div className="item2 grayscale hover:grayscale-0 " data-aos="fade-right">
+      <div
+        className="item2 grayscale hover:grayscale-0 "
+        data-aos="fade-right"
+        onClick={() => handleClick(`Grupal`)}
+      >
         <div className="capa-superior-grid" />
         <h2>Grupal</h2>
         <div className="grid-container-text ">

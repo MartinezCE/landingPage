@@ -3,7 +3,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Carga from "../Carga/Carga";
 
-
 const ImageLoader = ({ children }) => {
   const [cargando, setCargando] = useState(true);
 
@@ -30,13 +29,12 @@ const ImageLoader = ({ children }) => {
           });
         });
 
-        await Promise.all(promesasImagenes);
+        // Esperar a que todas las promesas se resuelvan o se rechacen
+        await Promise.allSettled(promesasImagenes);
       } catch (error) {
         console.error("Error al cargar las imágenes:", error);
       } finally {
-        setTimeout(() => {
-          setCargando(false);
-        }, 3000);
+        setCargando(false);
       }
     };
 
@@ -50,4 +48,4 @@ const ImageLoader = ({ children }) => {
   return children;
 };
 
-export default ImageLoader
+export default ImageLoader;

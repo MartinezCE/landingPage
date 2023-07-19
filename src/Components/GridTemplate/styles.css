@@ -1,8 +1,8 @@
 .grid-container {
   display: grid;
-  width: 100%;
+
   overflow: hidden;
-  grid-template-rows: 420px 420px 420px;
+  grid-template-rows: 520px 520px 520px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0px;
   grid-template-areas:
@@ -95,13 +95,13 @@
 
 @media (max-width: 425px) {
   .grid-container {
-    grid-template-rows: 420px 420px 420px 620px;
+    grid-template-rows: 100svh 100svh 100svh 100svh 100svh;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "header header"
-      "sidebar test"
+      "sidebar sidebar"
+      "test test"
       "footer footer"
       "main main";
   }
- 
 }

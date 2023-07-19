@@ -24,3 +24,21 @@
   font-size: 42px;
   font-weight: bold;
 }
+
+@media (max-width: 425px) {
+  .conteiner {
+    margin-top: 0px;
+  }
+
+  .banner_text {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    padding: 10px;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+}

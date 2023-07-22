@@ -172,7 +172,7 @@ const Contact = () => {
             . <br></br>
             También podes utilizar el formulario adjunto para enviarme un
             mensaje directamente. <br></br>¡Espero saber que queres empezar tu
-            cambio fisico hoy!"
+            cambio fisico hoy!
           </p>
         </div>
       </div>

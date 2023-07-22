@@ -1,53 +1,38 @@
-.carga-contenedor{
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: black;
+.carga-contenedor {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: black;
 }
-.carga-contenedor div{
-    width: 420px;
-    height: 520px;
+.carga-contenedor div {
+  width: 420px;
+  height: 520px;
 }
-.carga-contenedor img{
-    background-color: black;
+.carga-contenedor img {
+  background-color: black;
 }
-.carga-contenedor p{
-justify-items: center;
-    color: white;
-    text-align: center;
+.carga-contenedor p {
+  justify-items: center;
+  color: white;
+  text-align: center;
 }
-.carga-lottie{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: black;
+.carga-lottie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: black;
+}
 
-}
-
-
-
-@media (max-width: 768px) {
-    .grid-container {
-        grid-template-rows: 420px 420px 420px 420px 100dvh;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas:
-          "header header"
-          "sidebar sidebar"
-          "test test"
-          "footer footer"
-          "main main";
-      }
-}
 @media (max-width: 425px) {
-    .carga-contenedor  {
-        width: 100svw;
-        height: 100svh;
-        height: 100lvh;
-        height: 100dvh;
-      }
+  .carga-contenedor {
+    width: 100svw;
+    height: 100svh;
+    height: 100lvh;
+    height: 100dvh;
+  }
 }

@@ -82,8 +82,6 @@ const Contact = () => {
         <form
           className="flex flex-col w-2/4 p-12"
           onSubmit={handleSubmit}
-          data-aos="fade-up"
-          data-aos-duration="3000"
         >
           <section className="flex flex-col items-start  mb-4">
             <label htmlFor="name">Nombre:</label>
@@ -145,9 +143,6 @@ const Contact = () => {
         </form>
         <div
           className="bg-sky-950 w-2/4 p-12 text"
-          data-aos="fade-down"
-          data-aos-easing="linear"
-          data-aos-duration="1500"
         >
           <h2>contacto </h2>
           <p className="text-lg mt-6">
